@@ -1,0 +1,10 @@
+<h1>All Products (products index)</h1>
+
+<% @products.each do |product| %>
+	<%= product.id %>:
+	<%= product.name %>
+	<%= product.formatted_price %><br/>
+<% end %>
+
+
+
